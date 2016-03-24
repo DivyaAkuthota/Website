@@ -1,0 +1,344 @@
+body {
+    background: url("../resources/images/desk_edit.jpg") no-repeat center center fixed;
+    /*background: url("http://localhost/website/resources/images/desk_edit2.jpg") no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Century Gothic";
+    background-attachment: fixed;
+}
+
+.heading {
+    color:white;
+}
+
+.centerpage{
+    /*margin: 0 auto;*/
+    /*margin-left: 20%;*/
+    /*margin-top: 32%;*/
+    margin: 0 auto;
+    margin-left: 29%;
+    margin-top: 19%;
+}
+
+.name {
+    font-size: 71px;
+    font-weight: 800;
+    font-family: "Century Gothic";
+    line-height: 150%;
+}
+
+.center-contact-button{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border : 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+.nav-a {
+    color: black;
+    font-size: 17px;
+    font-family: "Century Gothic";
+}
+
+.nav-a:hover {
+    color: black;
+}
+
+.modal-dialog {
+    margin-top: 12%;
+}
+
+.address{
+    text-align: center;
+}
+
+.contact-table {
+    width: 100%
+}
+
+.address-type{
+    font-size: 26px;
+    line-height: 200%;
+    font-family: "Century Gothic";
+}
+
+.modal-header{
+    text-align: center;
+}
+
+.address-residence, .address-work {
+    line-height: 150%;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+.close-button-modal{
+    background-image: url('../resources/images/close-button.png');
+    /*background-image: url('http://localhost/website/resources/images/close-button.png');*/
+    position: absolute;
+    right: -8px;
+    top: -10px;
+    background-color: transparent;
+    height: 25px;
+    width:26px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.modal-content {
+    border-radius:17px;
+}
+
+
+.icon {
+    width:80px;
+    height:80px;
+    margin-left: 1.5%;
+    float: left;
+    cursor: hand;
+}
+
+.navbar-collapse{
+    padding-left: 50%;
+    padding-top: 24px;
+    float:right;
+}
+
+.main-div {
+    /*border-radius: 15px;*/
+    margin-top: 3%;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 10%;
+    /*border: 1.5px solid black;*/
+}
+
+
+
+
+.portfolio-div, .projects-div{
+    margin: 5%;
+    text-align: center;
+}
+
+.portfolio-title, .project-type{
+    font-size: 50px;
+    color: #e6c719;
+    line-height: 100%;
+}
+
+.portfolio-content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-content {
+    width:100%;
+    margin: 0 auto;
+}
+
+.content-table{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 150% ;
+
+}
+
+.portfolio-degree, .portfolio-role, .portfolio-heading, .project-name{
+    font-family: "Century Gothic";
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.portfolio-detail, .project-description{
+    font-size: 17px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.project-technologies{
+    font-size: 22px;
+    line-height: 150%;
+}
+
+
+.education-div{
+    text-align: center;
+    /*border: 1px solid black;*/
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+}
+
+.logo-div{
+    float: left;
+    /*background-image: url('http://localhost/website/resources/images/seawolf.jpg');*/
+}
+
+.table-div{
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 55%;
+}
+
+.grad-div{
+    float: left;
+}
+
+.img-logo{
+    width: 210px;
+    height: 146px;
+    margin-top: 11%;
+}
+
+.edu-tr{
+    line-height: 150%;
+    font-size: 17px;
+    font-family: "Century Gothic";
+}
+
+.grad-logo{
+    width: 111px;
+    height: 146px;
+}
+
+
+.facebook-button, .twitter-button, .linkedin-button{
+    /*background-image: url('../resources/images/facebook.png');*/
+    /*background-image: url('http://localhost/website/resources/images/facebook.png');*/
+    position: relative;
+    background-color: transparent;
+    height: 25px;
+    width:26px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    margin:1%;
+}
+
+.facebook-button {
+    /*background-image: url('http://localhost/website/resources/images/facebook.png');*/
+    background-image: url('../resources/images/facebook.png');
+
+}
+
+.twitter-button{
+    /*background-image: url('http://localhost/website/resources/images/twitter.png');*/
+    background-image: url('../resources/images/twitter.png');
+
+}
+
+.linkedin-button{
+    /*background-image: url('http://localhost/website/resources/images/linkedin.png');*/
+    background-image: url('../resources/images/linkedin.png');
+
+}
+
+.construction{
+    width:600px;
+    height:600px;
+    margin-left:22%;
+}
+
+.tab-heading{
+    color: black;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.resume-button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border : 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 40%;
+    margin-top: 24%;
+    cursor: pointer;
+}
+
+.resume-button:hover {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+.connect-label{
+    font-size: 20px;
+    margin-right: 5%;
+}
+@media screen and (max-device-width: 450px)
+{
+    .main-div {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .portfolio-div, .projects-div{
+        margin-top: 10%;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .construction{
+        width: 200px;
+        height: 200px;
+        margin-left: 24%;
+        margin-top: 20%;
+    }
+
+    .portfolio-content, .project-content{
+        width:80%;
+    }
+    .inner-projects-div{
+        margin-top: 10%;
+    }
+    .name{
+        font-size: 23px;
+        margin-left: -7%;
+    }
+
+    .centerpage{
+        margin-top: 40%;
+    }
+    .contact-button{
+        margin-left: -7%;
+    }
+    .resume-button{
+        margin-left: 24%;
+        margin-top: 35%;
+    }
+
+}
+

@@ -1,0 +1,36 @@
+<div class="projects-div">
+    <div class="inner-projects-div">
+        <span class="project-type">{{work.title}}</span>
+        <div class="project-content">
+            <work-card ng-repeat="work in work.projects" work="work"></work-card>
+        </div>
+    </div>
+
+    <div>
+        <span class="project-type">{{academic.title}}</span>
+        <div class="project-content">
+            <work-card ng-repeat="academic in academic.projects" work="academic"></work-card>
+        </div>
+    </div>
+</div>
+
+<!--<div class="projects-div">-->
+    <!--<uib-tabset active="activeForm">-->
+        <!--<uib-tab index="0" heading="Work Projects" class="tab-heading">-->
+            <!--<br/>-->
+            <!--<div class="project-content">-->
+                <!--<work-card ng-repeat="work in work.projects" work="work"></work-card>-->
+            <!--</div>-->
+        <!--</uib-tab>-->
+        <!--<uib-tab index="1" heading="Academic Projects">-->
+            <!--<br/>-->
+            <!--<div class="project-content">-->
+                <!--<work-card ng-repeat="academic in academic.projects" work="academic"></work-card>-->
+            <!--</div>-->
+        <!--</uib-tab>-->
+        <!--<uib-tab index="2" heading="Side Projects">-->
+            <!--In Progress-->
+        <!--</uib-tab>-->
+    <!--</uib-tabset>-->
+
+<!--</div>-->

@@ -1,0 +1,77 @@
+<div class="portfolio-div">
+    <div>
+        <strong><span ng-bind="education.title" class="portfolio-title"></span></strong>
+
+        <!--<div class="portfolio-content">-->
+            <!--<table class="content-table" ng-repeat="level in vm.education.level">-->
+                <!--<tr>-->
+                    <!--<td>-->
+                        <!--<span class="portfolio-degree"> {{level.degree}}</span>-->
+                    <!--</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>-->
+                        <!--<span class="portfolio-detail"> {{level.university}}</span>-->
+                    <!--</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>-->
+                        <!--<span class="portfolio-detail"> {{level.years}}</span>-->
+                    <!--</td>-->
+                <!--</tr>-->
+            <!--</table>-->
+        <!--</div>-->
+        <education-card ng-repeat="level in education.level" education="level" ></education-card>
+        <!--<education-card></education-card>-->
+    </div>
+    <br/>
+    <div>
+        <strong><span ng-bind="work.title" class="portfolio-title"></span></strong>
+        <br/>
+        <br/>
+        <div class="portfolio-content">
+            <table class="content-table" ng-repeat="work in work.company">
+                <tr>
+                    <td>
+                        <span class="portfolio-role"> {{work.role}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="portfolio-detail"> {{work.workplace}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="portfolio-detail"> {{work.location}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="portfolio-detail"> {{work.years}}</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br/>
+    <div>
+        <strong><span ng-bind="skills.title" class="portfolio-title"></span></strong>
+        <br/>
+        <br/>
+        <div class="portfolio-content">
+            <table class="content-table" ng-repeat="skill in skills.category">
+                <tr>
+                    <td>
+                        <span class="portfolio-heading">{{skill.title}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="portfolio-detail">{{skill.list}}</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
