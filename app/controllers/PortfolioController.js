@@ -11,7 +11,8 @@ app.controller("PortfolioController", function($scope){
             "location": "New York, USA",
             "years": "Aug'12 - Dec'13",
             "logo":"resources/images/sbu-logo.jpg",
-            "grad":"resources/images/2014edit.png"
+            "grad":"resources/images/2014edit.png",
+            "url":"http://www.stonybrook.edu/"
         },
             {
                 "degree" : "Bachelor's of Engineering",
@@ -19,7 +20,8 @@ app.controller("PortfolioController", function($scope){
                 "location" : "Hyderabad, India",
                 "years" : "Aug'08 - May'12",
                 "logo": "resources/images/ou-logo.png",
-                "grad": "resources/images/2012.png"
+                "grad": "resources/images/2012.png",
+                "url":"http://www.uceou.edu/"
             }
         ]
     };

@@ -18,7 +18,7 @@ body {
     /*margin-left: 20%;*/
     /*margin-top: 32%;*/
     margin: 0 auto;
-    margin-left: 29%;
+    margin-left: 18%;;
     margin-top: 19%;
 }
 
@@ -298,6 +298,20 @@ body {
     font-size: 20px;
     margin-right: 5%;
 }
+
+.black-links{
+    color:black;
+}
+
+.under-maintenance{
+    width:40%;
+    height:40%;
+    padding-top: 13%;
+    padding-left: 30%;
+}
+
+
+
 @media screen and (max-device-width: 450px)
 {
     .main-div {
