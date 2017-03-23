@@ -1,72 +1,82 @@
 
-<script>
-    $('#contact-modal').on('shown', function () {
-        console.log("trigger script");
-        google.maps.event.trigger(map, "resize");
-    });
-</script>
+
 
 <script type="text/ng-template" id="myModalContent.html">
     <div id="contact-modal">
-    <div class="modal-header">
-        <h3 class="modal-title">Contact Information </h3>
-        <button class="close-button-modal" ng-click="ok()"></button>
-    </div>
-    <div class="modal-body">
-        <div>
-            <table class="contact-table">
-                <tr>
-                   <td>
-                       <div class="address">
-                           <span class="address-type"><strong>Residence</strong></span><br>
-                            <div class="address-residence">
-                                    Divya Akuthota <br>
-                               1970 Veterans Highway, F24<br>
-                               Levittown, PA , USA 19056 <br>
-                           </div>
-                           <span class="address-type"><strong>Work</strong></span><br>
-                           <div class="address-work">
-                                   Bank of America Merrill Lynch<br>
-                               1300 American Boulevard<br>
-                               Pennington, New Jersey, USA 08534<br>
-                           </div>
-                           <br/>
-                           <div class="email-phone">
-                               <a href="mailto:divya.vn334@gmail.com?Subject=Hello" target="_top">divya.vn334@gmail.com</a>
-                               <a href="tel:+0016314284249">+16314284249</a>
-                           </div>
-                       </div>
-                   </td>
-                </tr>
-                <!--<tr>-->
+
+
+            <button class="close-button-modal" ng-click="ok()"></button>
+
+        <div class="modal-body">
+            <h3 class="modal-title lets-connect-title">Let's Connect </h3>
+            <div>
+                <table class="contact-table">
+                    <tr>
+                        <td>
+                            <div class="address">
+                                <span class="address-type"><strong>Work</strong></span><br>
+                                <div class="address-work">
+                                    Bank of America <br>
+                                    San Francisco, CA <br>
+                                </div>
+                                <br/>
+                                <div class="email-phone">
+                                    <a href="mailto:divya.vn334@gmail.com?Subject=Hello" target="_top">divya.vn334@gmail.com</a>
+                                    <!--<a href="tel:+0016314284249">+16314284249</a>-->
+                                </div><br/>
+                                <!--<span class="contributions">My Contributions</span>-->
+                                <!--<div><a href="https://github.com/DivyaAkuthota" target="_blank"><img class="github-image" src="resources/images/github.png"/></a> Github</div>-->
+
+                                <!--<div>-->
+                                    <!--Download Eight Glasses-->
+                                    <!--<a href="https://itunes.apple.com/us/app/eight-glasses/id1125802321?ls=1&mt=8"><img class="appstore" target="_blank" src="resources/images/appstorebadge.png"></a>-->
+                                <!--</div>-->
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="connect-buttons">
+                                <button class="facebook-button" onclick="window.open('https://www.facebook.com/munni.divya')"></button>
+                                <button class="linkedin-button" onclick="window.open('https://www.linkedin.com/in/divyaakuthota')"></button>
+                                <button class="twitter-button" onclick="window.open('https://twitter.com/Munnidivya')"></button>
+                                <button class="quora-button" onclick="window.open('https://www.quora.com/profile/Munni-Divya')"></button>
+                                <button class="instagram-button" onclick="window.open('https://www.instagram.com/munnidivya/')"></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--<tr>-->
                     <!--<td>-->
-                        <!--<div id="googleMap" style="width:200px;height:200px;"></div>-->
+                    <!--<div id="googleMap" style="width:200px;height:200px;"></div>-->
                     <!--</td>-->
-                <!--</tr>-->
-            </table>
+                    <!--</tr>-->
+                </table>
+            </div>
         </div>
-    </div>
         <br/>
         <br/>
-        <div class="modal-footer">
-            <span class="connect-label">Connect</span>
-            <button class="facebook-button" onclick="window.open('https://www.facebook.com/munni.divya')"></button>
-            <button class="linkedin-button" onclick="window.open('https://www.linkedin.com/in/divyaakuthota')"></button>
-            <button class="twitter-button" onclick="window.open('https://twitter.com/Munnidivya')"></button>
-        </div>
+        <!--<div class="modal-footer">-->
+            <!--<span class="connect-label">Connect</span>-->
+
+        <!--</div>-->
 
     </div>
 </script>
 
-<div class="centerpage">
-        <table>
-       <tr><td> <strong><span class="name"> DIVYA AKUTHOTA </span> </strong></td></tr>
-       <tr class="center-contact-button">
-           <td> <button type="button" ng-click="openContactModal()" class="contact-button">Contact</button>
-           <!--<button type="button" ng-click="window.open('/resources/pdfs/DivyaAkuthotaResume.pdf','_blank')" class="contact-button">Resume</button>-->
-           </td>
-       </tr>
-        </table>
+
+<div class="text-center home-div">
+    <div class="row">
+        <div class=".col-md-6 .col-md-offset-3 ">
+            <table class="lets-connect-table">
+                <tr>
+                    <td> <span class="intro-text"> Hi! I'm Divya </span>
+                    </td>
+                </tr>
+                <tr class="center-contact-button">
+                    <td> <button type="button" ng-click="openContactModal()" class="contact-button">Let's Connect</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </div>
-
-

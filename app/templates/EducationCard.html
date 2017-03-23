@@ -1,19 +1,10 @@
-<div class="portfolio-content">
-        <table class="content-table">
-            <tr class="edu-tr">
-                <td class="portfolio-degree">
-                   {{vm.education.degree}}
-                </td>
-            </tr>
-            <tr class="edu-tr">
-                <td>
-                    <a class="black-links" href="{{vm.education.url}}" target="_blank">{{vm.education.university}}</a>
-                </td>
-            </tr>
-            <tr class="edu-tr">
-                <td>
-                    {{vm.education.location}}
-                </td>
-            </tr>
-        </table>
-</div>
+
+
+<div class="card-item">
+    <img src="{{vm.education.logo}}" class="img-circle univ-image" />
+    <div class="card-details">
+        <span>{{vm.education.degree}}</span><br>
+        <a href="{{vm.education.url}}" target="_blank"><span>{{vm.education.university}}</span><br></a>
+        <span> {{vm.education.location}}</span>
+    </div> <!-- end of education details -->
+</div> <!-- end of education item -->

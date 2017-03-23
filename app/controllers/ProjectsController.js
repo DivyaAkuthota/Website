@@ -1,6 +1,15 @@
 app.controller("ProjectsController",['$scope', function($scope){
 
-    $scope.work = {
+
+
+    function  init() {
+        $(document).ready(function(){
+            $(this).scroll(0,0);
+        });
+    }
+
+    init();
+    $scope.workProjects = {
         "title" : "Work Projects",
         "projects" : [{
             "name" : "CCV Admin Tool",
@@ -35,7 +44,7 @@ app.controller("ProjectsController",['$scope', function($scope){
         ]
     };
 
-    $scope.academic = {
+    $scope.academicProjects = {
         "title" : "Academic Projects",
         "projects" : [{
                 "name" : "ITrack",

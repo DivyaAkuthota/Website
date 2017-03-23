@@ -40,10 +40,10 @@ app.config(['$routeProvider','$locationProvider','$stateProvider','$urlRouterPro
             templateUrl : "app/templates/portfolio.html",
             controller : "PortfolioController"
         })
-        .state('about',{
+        .state("about",{
             url : "/about",
             templateUrl : "app/templates/About.html",
-            controller : ""
+            controller : "AboutController"
         })
         .state("projects", {
             url : "/projects",

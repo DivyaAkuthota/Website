@@ -1,7 +1,7 @@
 app.directive("educationCard", function(){
     return {
         restrict : "AE",
-        replace : true,
+        replace : false,
         templateUrl : "app/templates/EducationCard.html",
         controller:"educationCardController",
         controllerAs:"vm",
